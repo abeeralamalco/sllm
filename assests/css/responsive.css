@@ -1,0 +1,75 @@
+/* responsive */
+
+
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+    .hero_section {
+        padding-bottom: 100px;
+        padding-top: 10px;
+    }
+    .tablet_section img {
+        width: 90%;
+        margin-top: -178px;
+    }
+    
+   html {
+    overflow-x: hidden;
+   }
+    .auth_col {
+        padding: 30px 50px;
+    }
+    .w-50 {
+        width: 100% !important;
+        text-align: center;
+    }
+    .forget_psd_txt {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .form_body {
+        width: 85%;
+        margin: auto;
+    }
+}
+          
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+    html {
+        overflow-x: hidden;
+       }
+       .hero_section {
+        padding-bottom: 100px;
+        padding-top: 75px;
+    }
+    
+    
+       .tablet_section img {
+        width: 90%;
+        margin-top: -190px;
+    }
+    .auth_col {
+        padding: 30px 50px;
+    }
+    .w-50 {
+        width: 100% !important;
+        text-align: center;
+    }
+    .forget_psd_txt {
+        text-align: center;
+        margin-top: 40px;
+    }
+    .form_body {
+        width: 85%;
+        margin: auto;
+    }
+}
+          
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px){
+    .auth_col {
+        padding: 30px 50px;
+    }
+ 
+}
+          
